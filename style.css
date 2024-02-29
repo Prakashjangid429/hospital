@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navcontant{
+    padding: 8px 9%;
+    background-color: aqua;
+    color: rgba(0, 0, 0, 0.61);
+}
+.navcon span{
+    padding: 0 2%;
+
+}
+/* style for navbar */
+.nav_bx{
+    padding: 0 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-blend-mode: multiply;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.541);
+
+}
+.nav_main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+}
+.navlogo{
+    margin-right: 10px;
+}
+.nav_menu ul li{
+    display: inline;
+}
+.nav_menu ul li a{
+    color: rgb(0, 0, 0);
+    padding: 15px 15px;
+    transition: ease-in-out .6s;
+    
+}
+.nav_menu ul li a:hover{
+    color: #635353;
+    box-shadow: 0 0 20px black;
+    color: skyblue;
+    border-radius: 20px;
+    background-color: #635353;
+}
+.nav_sign span a{
+    padding: 0 10px;
+    color: red;
+}
+.nav_sign span a,.nav_menu ul li a{
+    text-decoration: none;
+}
+#HOME{
+    padding: 0 12%;
+    /* background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zODAtMTJfMS1rbnpvdmtvaS5qcGc.jpg);
+    background-size: cover; */
+    box-shadow: 0px 2px 3px 0px black;
+    height: 90vh;
+}
+.home_bx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+.home_text h1{
+    font-size: 45px;
+}
+.home_text p{
+    font-size: larger;
+    color: #635353;
+}
+.home_img{
+    width: 50%;
+}
+.btn{
+    padding: 10px 45px;
+    border: none;
+    background-color: #252525;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: large;
+}
+/* appointment section style */
+#book{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+}
+.book_bx{
+    box-shadow: 0 0 5px black;
+    padding: 3%;
+    width: 70%;
+}
+.form_box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.form_input{
+    width: 28%;
+    font-size: larger;
+}
+.form_input input,.form_input select{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: medium;
+}
+.form_input select{
+    width: 98%;
+}
+#about,#treatment{
+    padding: 5% 8%;
+
+}
+.about_bx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about_text{
+    width: 50%;
+}
+.t_bx{
+    display: flex;
+    justify-content: space-between;
+}
+.treat{
+    width: 20%;
+}
+
+.head{
+    text-align: center;
+    font-size: 40px;
+}
+.treat p{
+    text-align: justify;
+}
+#doctor{
+    padding: 2% 10%;
+    background-color: #635353;
+    text-align: center;
+
+}
+.doctor_bx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+}
+.dcard{
+    background-color: rgb(153, 173, 173);
+    width: 20%;
+    padding: 20px 10px;
+}
+.dcard img{
+    margin-top: -60px;
+    box-shadow: 0 0 7px;
+}
+#contact{
+    padding: 3% 10%;
+    
+}
+.contact_bx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.conform{
+    width: 60%;
+}
+.conimg{
+    width: 40%;
+}
+.conform h4{
+    font-size: 35px;
+} 
+.conform form input{
+    width: 80%;
+    padding: 15px 20px;
+    margin: 10px 0;
+    background-color: rgb(212, 212, 210);
+    font-size: large;
+    border: none;
+    outline: none;
+}
+.conform form textarea{
+    width: 80%;
+    padding: 15px 20px;
+    margin: 10px 0;
+    background-color: rgb(212, 212, 210);
+    font-size: large;
+    border: none;
+    outline: none;
+}
+footer{
+    background-color: #0b0c14;
+    height: 60vh;
+    padding: 0 12%;
+}
+.foot_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot_top form input{
+    background-color: #0b0c14;
+    width: 88%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: aqua;
+    font-size: large;
+}
+.foot_form{
+    width: 90%;
+    border-bottom: 2px solid white;
+}
+.foot_form form a{
+    text-decoration: none;
+    color: aqua;
+}
+.foot_bottom{
+    display: flex;
+    justify-content: space-between;
+    color: aqua;
+    margin: 50px 0;
+}
+.foot_text{
+    width: 23%;
+}
+.foot_text a{
+    text-decoration: none;
+    color: aqua;
+    font-size: large;
+    margin: 20px 0;
+}
+.icon a i{
+ font-size: larger;
+ padding: 10px;
+ border: 1px solid white;
+ border-radius: 15px;
+ transition: ease-in-out .2s;
+}
+.icon a i:hover{
+    scale: 1.1;
+    box-shadow: 0 0 20px whitesmoke;
+}
+.copy{
+    text-align: center;
+    color: rgb(26, 170, 170);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
